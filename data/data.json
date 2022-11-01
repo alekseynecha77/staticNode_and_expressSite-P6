@@ -9,8 +9,8 @@
                 "technologies": "JavaScript",
                 "live_link": "",
                 "github_link": "",
-                "image_urls": ""
-
+                "image_urls": ["/static/imgs/formInteactive.png",
+                "/static/imgs/formInteactive_2.png"]
             },
             {
                 "id": 1,
@@ -19,7 +19,8 @@
                 "technologies": "JavaScript",
                 "live_link": "",
                 "github_link": "",
-                "image_urls": ""
+                "image_urls": ["/static/imgs/P3.png",
+                "/static/imgs/P3_2.png"]
             },
             {
                 "id": 2,
@@ -28,7 +29,8 @@
                 "technologies": "JavaScript",
                 "live_link": "",
                 "github_link": "",
-                "image_urls": ""
+                "image_urls": ["/static/imgs/P6.png",
+                "/static/imgs/P6_2.png"]
             },
             {
                 "id": 3,
@@ -37,7 +39,8 @@
                 "technologies": "JavaScript",
                 "live_link": "",
                 "github_link": "",
-                "image_urls": ""
+                "image_urls": ["/static/imgs/P8.png",
+                "/static/imgs/P8_2.png"]
             },
             {
                 "id": 4,
@@ -46,16 +49,8 @@
                 "technologies": "JavaScript",
                 "live_link": "",
                 "github_link": "",
-                "image_urls": ""
-            },
-            {
-                "id": 5,
-                "project_name": "",
-                "description": "",
-                "technologies": "JavaScript",
-                "live_link": "",
-                "github_link": "",
-                "image_urls": ""
+                "image_urls":["/static/imgs/P7.png",
+                "/static/imgs/P7_2.png"]
             }
         ]
     }
