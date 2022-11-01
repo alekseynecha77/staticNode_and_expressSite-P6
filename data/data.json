@@ -1,7 +1,6 @@
 {
-    "data": {
-        "title": "Projects",
-        "pcitures": [
+    "projects" : [
+    
             {
                 "id": 0,
                 "project_name": "",
@@ -52,6 +51,5 @@
                 "image_urls":["/static/imgs/P7.png",
                 "/static/imgs/P7_2.png"]
             }
-        ]
+    ]
     }
-}
