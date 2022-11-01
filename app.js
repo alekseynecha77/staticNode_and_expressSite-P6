@@ -1,12 +1,22 @@
 const express = require('express');
-const router = express.Router();
-const { data } = require('../../data/data.json');
+const { projects } = require('./data/data.json');
 
+const app = express();
 
-router.use('/static' , express.static('public'));
-router.set('view engine', 'pug');
+app.use('/static' , express.static('public'));
+app.set('view engine', 'pug');
 
+app.get('/', (req, res) => {
+    res.render(`index`);
+    res.locals(data.projects);
+});
+app.get('/about', (req, res) => {
+    res.render(`about`);
+});
+app.get('/projects/:id', (req, res) => {
+    const{ id } = req.params;
+});
 
-router.listen(3000, () => {
+app.listen(3000, () => {
     console.log('The application is running on localhost:3000')
 });
