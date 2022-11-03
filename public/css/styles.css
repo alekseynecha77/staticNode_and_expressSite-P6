@@ -137,19 +137,22 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background-image: url('../imgs/HeadShot.jpg');
+  background-size: cover;
+opacity: 0.4;
 }
 
 .sidebar-info-box {
   margin: auto;
 }
-.sidebar {
-  background-image: url('../imgs/HeadShot.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border:none;
-}
+/* .sidebar { */
+  /* background-image: url('../imgs/HeadShot.jpg'); */
+
+  /* border:none; */
+  /* opacity: 0.6; */
+  /*  */
+  /* height: auto; */
+/* } */
 .thumbnail-box {
   padding: 0 10px;
 }
@@ -165,15 +168,20 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #f1f1f1;
   margin: 0 auto 0.5rem;
+  opacity: 3;
+font-weight: bold;
+z-index: 2;
 }
 
 .sidebar p {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  color: rgb(245, 245, 245);
+  opacity: 3;
+
 }
 
 .sidebar a {
@@ -182,7 +190,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: rgb(255, 255, 255);
 }
 
 .header {
