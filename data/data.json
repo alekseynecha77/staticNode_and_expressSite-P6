@@ -3,7 +3,7 @@
     
             {
                 "id": 0,
-                "project_name": "",
+                "project_name": "Interactive Form",
                 "description": "",
                 "technologies": "JavaScript",
                 "live_link": "",
@@ -13,7 +13,7 @@
             },
             {
                 "id": 1,
-                "project_name": "",
+                "project_name": "Photo Gallery",
                 "description": "",
                 "technologies": "JavaScript",
                 "live_link": "",
@@ -23,7 +23,7 @@
             },
             {
                 "id": 2,
-                "project_name": "",
+                "project_name": "Wheel of Success",
                 "description": "",
                 "technologies": "JavaScript",
                 "live_link": "",
@@ -33,7 +33,7 @@
             },
             {
                 "id": 3,
-                "project_name": "",
+                "project_name": "Employee Directory",
                 "description": "",
                 "technologies": "JavaScript",
                 "live_link": "",
@@ -43,7 +43,7 @@
             },
             {
                 "id": 4,
-                "project_name": "",
+                "project_name": "Random Quote Generator",
                 "description": "",
                 "technologies": "JavaScript",
                 "live_link": "",
