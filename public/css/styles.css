@@ -137,22 +137,15 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background-image: url('../imgs/HeadShot.jpg');
-  background-size: cover;
-opacity: 0.4;
+  /* background-image: url('../imgs/HeadShot.jpg'); */
+  /* background-size: cover; */
+/* opacity: 0.4; */
 }
 
 .sidebar-info-box {
   margin: auto;
 }
-/* .sidebar { */
-  /* background-image: url('../imgs/HeadShot.jpg'); */
 
-  /* border:none; */
-  /* opacity: 0.6; */
-  /*  */
-  /* height: auto; */
-/* } */
 .thumbnail-box {
   padding: 0 10px;
 }
@@ -172,7 +165,6 @@ opacity: 0.4;
   margin: 0 auto 0.5rem;
   opacity: 3;
 font-weight: bold;
-z-index: 2;
 }
 
 .sidebar p {
