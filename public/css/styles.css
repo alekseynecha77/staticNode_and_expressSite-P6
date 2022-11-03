@@ -143,7 +143,13 @@ nav a span {
 .sidebar-info-box {
   margin: auto;
 }
-
+.sidebar {
+  background-image: url('../imgs/HeadShot.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border:none;
+}
 .thumbnail-box {
   padding: 0 10px;
 }
