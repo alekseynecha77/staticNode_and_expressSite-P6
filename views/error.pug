@@ -1,6 +1,7 @@
 extends layout
 
 block content
-    h1= error.message
-    h2= error.status
-    pre= error.stack
+    .dev-intro-box
+        h1= `There is an error`
+        h2= `The error is: ${error.status}`
+        h2= `Looks like there was a problem, please try again`
