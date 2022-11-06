@@ -4,7 +4,7 @@
             {
                 "id": 0,
                 "project_name": "Interactive Form",
-                "description": "",
+                "description": "In this project I build interactive form website with validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
                 "technologies": ["JavaScript","CSS", "HTML"],
                 "live_link": "https://alekseynecha77.github.io/InteractiveForm/",
                 "github_link": "https://github.com/alekseynecha77/InteractiveForm",
@@ -14,7 +14,7 @@
             {
                 "id": 1,
                 "project_name": "Photo Gallery",
-                "description": "",
+                "description": "In this project I build a photo gallery app, that have search bar to search for images and click to see full picture",
                 "technologies": ["JavaScript","CSS", "HTML"],
                 "live_link": "https://alekseynecha77.github.io/Project5/",
                 "github_link": "https://github.com/alekseynecha77/Project5 ",
@@ -24,7 +24,7 @@
             {
                 "id": 2,
                 "project_name": "Wheel of Success",
-                "description": "",
+                "description": "In this project I created a project based guessing game called the 'Phrase Hunter. To achive this I ultilized Java Script and (OOP) Object Oriented Programming.",
                 "technologies": ["JavaScript","CSS", "HTML"],
                 "live_link": "https://alekseynecha77.github.io/Project6/",
                 "github_link": "https://github.com/alekseynecha77/Project6",
@@ -34,7 +34,7 @@
             {
                 "id": 3,
                 "project_name": "Employee Directory",
-                "description": "",
+                "description": "In this project I connect API so I can get a list of employees, then I created the search bar so the user can sort the employees by first and last name",
                 "technologies": ["JavaScript","CSS", "HTML"],
                 "live_link": "https://alekseynecha77.github.io/Project8/",
                 "github_link": "https://github.com/alekseynecha77/Project8",
@@ -44,7 +44,7 @@
             {
                 "id": 4,
                 "project_name": "Random Quote Generator",
-                "description": "",
+                "description": "For this project, I created an app that displays random famous quotes each time a button is clicked. I had to build an array of quote objects to store the quotes and then create functions to display random quotes from the array and then print them to the screen. For added visual I created a function to change the background color of the quote box and also gave them a timer to auto change every five seconds.",
                 "technologies": ["JavaScript","HTML", "CSS"],
                 "live_link": "https://alekseynecha77.github.io/RandomQuoteGame/",
                 "github_link": "https://github.com/alekseynecha77/RandomQuoteGame",

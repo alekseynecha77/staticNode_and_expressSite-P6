@@ -22,7 +22,7 @@ body {
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #000;
+  background: #524646;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -82,7 +82,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: #ffffff;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -190,7 +190,7 @@ font-weight: bold;
   color: #fefefe;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #524646;
   border-left: 1px solid #0a0a0a;
 }
 
@@ -207,11 +207,11 @@ font-weight: bold;
   width: 20px;
   height: 16px;
   border: none;
-  background: #0a0a0a;
+  background: #7c6b6b;
   margin-top: 3px;
   margin-right: 10px;
-  border-top: 2px solid #fefefe;
-  border-bottom: 2px solid #fefefe;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 .header button:after {
@@ -253,7 +253,7 @@ font-weight: bold;
   font-size: 13px;
   letter-spacing: 2.25px;
   text-transform: uppercase;
-  color: #222;;
+  color: rgba(70, 119, 103, 0.779);
   margin: 0 auto 8px;
 }
 
@@ -276,7 +276,9 @@ font-weight: bold;
 .project-info-box p {
   font-size: 125%;
 }
-
+.project-info-box h1{
+  color: rgba(70, 119, 103, 0.779);
+}
 .about-bio p {
   font-size: 15px;
   padding-top: 40px;
