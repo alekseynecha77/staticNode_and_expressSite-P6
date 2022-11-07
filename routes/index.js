@@ -4,14 +4,14 @@ const { projects } = require('../data/data.json');
 /* GET generated error route - create and throw 500 server error */
 
 
-app.get('/', (req, res) => {
+router.get('/', (req, res) => {
     res.render('index', { projects });
 });
-app.get('/about', (req, res) => {
+router.get('/about', (req, res) => {
     res.render(`about`);
 });
 
-app.get('/project/:id', (req, res, next) => {
+router.get('/project/:id', (req, res, next) => {
     const{ id } = req.params;
     if(id <= projects.length && id >= 0){
         res.render('project', { project: projects[id] });
