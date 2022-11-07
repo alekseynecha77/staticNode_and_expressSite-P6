@@ -33,10 +33,28 @@ app.use((req, res, next)=>{
     next(err);
 
 });
+app.use((req, res, next)=>{
+    console.log('error');
+
+    const err = new Error();
+    err.message = `500 error thrown`;
+    err.status = 500;
+    next(err);
+
+});
+/* Global error handler */
+
 app.use((err, req, res, next)=>{
-    res.locals.error = err;
-    res.status(err.status);
-    res.render('error');
+    if (err) {
+        console.log('Global error handler called', err)
+    } 
+    if(err.status(404) === 404){
+    
+    res.status(404).render('page-not-found', {err});
+}else{
+    err.message = err.message || `oops look like have error`
+    res.status(err.status || 500).render('error', {err});
+}
 });
 
 
