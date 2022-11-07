@@ -2,6 +2,9 @@ extends layout
 
 block content 
     .dev-intro-box
-        h1= `${error.message}, ${error.status}`
-        h2= `oops it looks like you got into wrong page`
-        a.home(href=`/`) Home
+        h1= `404 - Page Not Found`
+        p= `Oops!  It looks like the page you're looking for does not exist.`
+
+    if err 
+        div.not-found-stack
+            pre #{err.stack}

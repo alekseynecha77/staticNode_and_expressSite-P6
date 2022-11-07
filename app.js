@@ -26,7 +26,7 @@ app.use((err, req, res, next)=>{
     
     res.status(404).render('page-not-found', {err});
 }else{
-    err.message = err.message || `oops it looks like you got into wrong page`
+    err.message = err.message || `Oops! Looks like there was a problem.`
     res.status(err.status || 500).render('error', {err});
 }
 });
